@@ -12,4 +12,7 @@
   - board contamination
   - leaky capacitors
   - damaged silicon
-  - backpowering of ICs through protection circuitry on pins  
+  - backpowering of ICs through protection circuitry on pins
+- Be careful poking around, hotplugging connectors, injecting voltages from power supplies (high capacitance can lead to a lot of energy delivered quickly)
+- Diode mode on your meter can reveal nuances that an ohmmeter can not. This is especially true when comparing a questionable unit to a known good unit.
+- If you have a board to board system, be careful when swapping a problematic board with a good board into a system... the system could have been the reason your problematic board is not working... 
