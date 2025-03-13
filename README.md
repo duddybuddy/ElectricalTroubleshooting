@@ -1,0 +1,15 @@
+# ElectricalTroubleshooting
+- Use a golden unit for comparison whenever possible (unless you only have one, and there is a risk of breaking it, then be very careful)
+- If a board is hand assembled, there is a great chance that you have a workmanship issue
+  - Backwards components, incorrect component placement, accidental DNI/installation of a DNI, open pin(s), absolute decimation of silicon from too much heat, solder bridges
+- When troubleshooting a protocol (i2c, SPI, CAN) with an oscillocope, trigger on the nominal signals, as you'd expect to see them, and then try moving your triggers to the outskirts of the where the signals should be
+  - short pulses, long pulses
+  - voltages that are too high/low
+- logic analyzers and scope decoders are amazing, use em
+- When you have a voltage present in a system that you would not expect to be present, try loading it with a light load to see if it can deliver current at the measured voltage
+- low current devices that are drawing too much current:
+  - improper configuration of MCU (pull ups/downs, peripherals, etc.)
+  - board contamination
+  - leaky capacitors
+  - damaged silicon
+  - backpowering of ICs through protection circuitry on pins  
