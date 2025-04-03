@@ -16,3 +16,6 @@
 - Be careful poking around, hotplugging connectors, injecting voltages from power supplies (high capacitance can lead to a lot of energy delivered quickly)
 - Diode mode on your meter can reveal nuances that an ohmmeter can not. This is especially true when comparing a questionable unit to a known good unit.
 - If you have a board to board system, be careful when swapping a problematic board with a good board into a system... the system could have been the reason your problematic board is not working... 
+
+## Test Equipment
+- When measuring the outpput of a function generator with an oscilloscope... it is easy to trick yourself/measure the wrong amplitudes if the function generator is set up to deliver a signal to a 50ohm terminated device. Some scopes have a switchable termination, some function generators have a "High-Z" output mode, and other times, you might need to add a terminator to your signal chain.
