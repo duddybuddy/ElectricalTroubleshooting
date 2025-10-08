@@ -22,4 +22,4 @@
 
 ## Programmable Devices (MCUs, SOCs, etc.)
 - Walk through/check all of your assumptions
-- - If you setup a configuration register, do you later undo your setup? (AND logic, accidental reset function call, etc.)
+-   If you setup a configuration register, do you later undo your setup? (AND logic, accidental reset function call, etc.)
