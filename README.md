@@ -1,4 +1,4 @@
-# ElectricalTroubleshooting
+# Electrical Troubleshooting
 - Use a golden unit for comparison whenever possible (unless you only have one, and there is a risk of breaking it, then be very careful)
 - If a board is hand assembled, there is a great chance that you have a workmanship issue
   - Backwards components, incorrect component placement, accidental DNI/installation of a DNI, open pin(s), absolute decimation of silicon from too much heat, solder bridges
@@ -19,3 +19,7 @@
 
 ## Test Equipment
 - When measuring the outpput of a function generator with an oscilloscope... it is easy to trick yourself/measure the wrong amplitudes if the function generator is set up to deliver a signal to a 50ohm terminated device. Some scopes have a switchable termination, some function generators have a "High-Z" output mode, and other times, you might need to add a terminator to your signal chain.
+
+## Programmable Devices (MCUs, SOCs, etc.)
+- Walk through/check all of your assumptions
+- - If you setup a configuration register, do you later undo your setup? (AND logic, accidental reset function call, etc.)
